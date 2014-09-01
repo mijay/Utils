@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace mijay.Utils.Comparers
 {
@@ -17,7 +18,7 @@ namespace mijay.Utils.Comparers
 
         public int GetHashCode(object obj)
         {
-            return ReferenceEquals(obj, null) ? 0 : obj.GetHashCode();
+            return RuntimeHelpers.GetHashCode(obj);
         }
     }
 }
