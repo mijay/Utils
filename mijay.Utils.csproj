@@ -81,6 +81,7 @@
     <Compile Include="Reflection\ReflectionExtensions.cs" />
     <Compile Include="Comparers\WrapperEqualityComparer.cs" />
     <Compile Include="StringReferableBase.cs" />
+    <Compile Include="Tasks\TaskEx.cs" />
     <Compile Include="Tasks\TaskExtensions.cs" />
   </ItemGroup>
   <ItemGroup />
